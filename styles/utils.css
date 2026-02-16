@@ -1,102 +1,118 @@
-.heading-1{
-    font-weight: 500;
-    size: 60px;
-    letter-spacing: -1%;
-    color: #000000;
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+
+:root {
+  --font-heading1: 60px;
+  --font-heading2: 30px;
+  --font-heading3: 22px;
+  --font-paragraph: 18px;
+  --font-para-bold: 15px;
+  --font-caption: 30px;
+  --font-label: 13px;
+  --font-links: 15px;
+  --font-display: 10px;
+  --font-base-weight: 400;
+  --font-secondary-weight: 500;
+  --font-headvig: "Hedvig Letters Serif", serif;
 }
 
-
-.heading-2{
-    font-weight: 500;
-    font-size: 26px;
-    letter-spacing: -2%;
-    color: #2C2825;
+html,
+body {
+  overflow-x: hidden;
+  touch-action: pan-y;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Rethink Sans", sans-serif;
+  max-width: 1280px;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+  position: relative;
 }
 
-.heading-3{
-    font-weight: 600;
-    font-size: 22px;
-    letter-spacing: -1%;
-    color: #000000;
+figure,
+figcaption,
+article {
+    margin: 0;
+    padding: 0;
 }
 
-.paragraph{
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 0%;
-    color: #575757;
+.divider {
+  margin: 0;
+  opacity: 0.2;
 }
 
-.paragraph-bold{
-    font-size: 15px;
-    letter-spacing: -1%;
-    font-weight: 700;
-    color: #000000;
+span {
+  color: #f45f00;
 }
 
-.caption{
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: -1%;
-    color: #2C2825;
+.guide-para {
+  color: #575757;
+  font-size: var(--font-paragraph);
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  font-weight: var(--font-secondary-weight);
+  opacity: 1;
+  max-width: 515px;
+  margin-top: 0;
 }
 
-.label{
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: -1%;
-    color: #2C2825;
+.h6 {
+  font-size: var(--font-para-bold);
+  margin-bottom: 6px;
+  margin-top: 0;
 }
 
-.links{
-    font-size: 13px;
-    letter-spacing: -2%;
-    font-weight: 500;
-    color: #2C2825;
+.tone {
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  margin: 0;
 }
 
-.display{
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: -2%;
-    color: #2C2825;
+.guide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-
-
-
-.container{
-    padding-top: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-.guide-container{
-    display: flex;
-    gap: 32px;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 120px;
-    border-bottom: 1px solid #0000001A;
-
-
-}
-.heading-1 span{
-    color: #F45F00;
-}
-.brand{
-    flex: 1;
-}
-.brand-p{
-    flex: 1;
+.icon-caption {
+  margin: 0;
+  font-size: var(--font-label);
+  font-weight: var(--font-secondary-weight);
+  line-height: 120%;
+  letter-spacing: -0.01em;
 }
 
-@media (max-width:1290) {
-    .heading-1{
-        font-size:45px;
-    }
+.color-name {
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: var(--font-label);
+  font-weight: var(--font-secondary-weight);
 }
-@media (max-width:800) {
-    .heading-1{
-        font-size: 30px;
-    }
+
+.color-code {
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: var(--font-label);
+  font-weight: var(--font-secondary-weight);
+}
+
+.gradient-label {
+  margin-top: 0;
+}
+
+.footer-link {
+  font-size: 13px;
+  color: #000000;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  opacity: 1;
+  font-weight: var(--font-secondary-weight);
+  margin: 0;
+  text-decoration: none;
 }
