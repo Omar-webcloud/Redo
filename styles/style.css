@@ -85,7 +85,18 @@ aside{
     /* display: block; */
 }
 
+.guideline .paragraph{
+    width: 815px;
+}
+
 .content-container span{
     color: #575757;
+}
+
+.brand-strategy img{
+    width: 100%;
+}
+.personality-text{
+    display: flex;
 }
 

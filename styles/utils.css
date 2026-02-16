@@ -80,7 +80,9 @@
 
 
 }
-
+.heading-1 span{
+    color: #F45F00;
+}
 .brand{
     flex: 1;
 }
