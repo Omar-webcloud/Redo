@@ -1,0 +1,65 @@
+
+*{
+    font-family: "Rethink Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    padding-top: 30px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0000001A;
+    
+}
+.logo img{
+    width: 51px;
+    height: 12px;
+}
+
+.menu{
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0000001A
+}
+.menu li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: medium;
+    letter-spacing: -2%;
+    line-height: 120%;
+}
+.menu li:hover {
+    color: #575757;
+    cursor: pointer;
+    
+}
+
+.menu sup{
+    font-size: 10px;
+    color: #575757;
+}
+.menu li:hover sup{
+    color: #F45F00;
+}
+.menu-2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #575757;
+    padding-left: 32px;
+    padding-top: 24px;
+    list-style: none;
+}
+.menu-2 li:hover{
+    color: #838282;
+    cursor: pointer;
+}
+
+aside{
+    width: 250px;
+    border-right: 1px solid #0000001A;
+    height: 100vh;
+    position: fixed;
+}
+
