@@ -1,8 +1,15 @@
+@import "/styles/utils.css" ;
+
 
 *{
     font-family: "Rethink Sans", sans-serif;
     padding: 0;
     margin: 0;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 250px 1fr;
 }
 .logo{
     padding-top: 30px;
@@ -60,6 +67,25 @@ aside{
     width: 250px;
     border-right: 1px solid #0000001A;
     height: 100vh;
-    position: fixed;
+    position: sticky;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.main-content{
+  
+    
+    
+}
+
+.main-content .hero-img img{
+    width: 100%;
+    /* display: block; */
+}
+
+.content-container span{
+    color: #575757;
 }
 

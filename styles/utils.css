@@ -1,0 +1,100 @@
+.heading-1{
+    font-weight: 500;
+    size: 60px;
+    letter-spacing: -1%;
+    color: #000000;
+}
+
+
+.heading-2{
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: -2%;
+    color: #2C2825;
+}
+
+.heading-3{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -1%;
+    color: #2C2825;
+}
+
+.paragraph{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    color: #575757;
+}
+
+.paragraph-bold{
+    font-size: 15px;
+    letter-spacing: -1%;
+    font-weight: 700;
+    color: #2C2825;
+}
+
+.caption{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -1%;
+    color: #2C2825;
+}
+
+.label{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -1%;
+    color: #2C2825;
+}
+
+.links{
+    font-size: 13px;
+    letter-spacing: -2%;
+    font-weight: 500;
+    color: #2C2825;
+}
+
+.display{
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: -2%;
+    color: #2C2825;
+}
+
+
+
+
+.container{
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.guide-container{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 120px;
+    border-bottom: 1px solid #0000001A;
+
+
+}
+
+.brand{
+    flex: 1;
+}
+.brand-p{
+    flex: 1;
+}
+
+@media (max-width:1290) {
+    .heading-1{
+        font-size:45px;
+    }
+}
+@media (max-width:800) {
+    .heading-1{
+        font-size: 30px;
+    }
+}
