@@ -346,3 +346,30 @@ main {
         font-size: 13px;
         font-weight: 500;
     }
+
+    /* art direction */
+
+    #art{
+         padding: 32px 32px 128px 32px;
+    }
+
+
+    .card-container{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 30px;
+    }
+
+    .card-title{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 13px;
+        color: #000000;
+        font-weight: 500;
+    }
+    .card-para{
+        color: #575757;
+        font-weight: 500;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
