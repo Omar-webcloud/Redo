@@ -535,4 +535,10 @@ main {
            flex-direction: column;
            justify-content: center;
          }
+         .c-list{
+            width: 195px;
+         }
+         .strate-title{
+            width: 300px;
+         }
     }
