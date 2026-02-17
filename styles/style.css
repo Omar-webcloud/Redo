@@ -343,4 +343,6 @@ main {
         display: flex;
         justify-content: space-between;
         color: #575757;
+        font-size: 13px;
+        font-weight: 500;
     }
