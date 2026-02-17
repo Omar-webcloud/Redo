@@ -541,4 +541,13 @@ main {
          .strate-title{
             width: 300px;
          }
+         .color-card{
+            display: grid;
+            justify-items: anchor-center;
+            width: 100%;
+         }
+         .f-item{
+            display: grid;
+            gap: 18px;
+         }
     }
