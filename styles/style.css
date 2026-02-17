@@ -284,7 +284,7 @@ main {
     .gradient-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px 0;
+        gap: 20px 30px;
     }
 
     .gradient{
@@ -419,3 +419,116 @@ main {
         margin-right: 16px;
     }
 
+
+    /* tablet responsive */
+
+    @media (max-width:1266px) {
+       .sidebar,.body-line{
+        display: none;
+       }
+       main{
+        margin: 0 auto;
+       }
+       .hero img{
+        width: 100%;
+       }
+       header{
+        display:grid ;
+        
+       }
+       .logo{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 32px;
+        
+        margin: 0 auto;
+        gap: 470px;
+       }
+       .mobile-toggle{
+        display: none;
+       }
+       .top-right{
+        display: flex;
+        gap: 12px;
+        color: #575757;
+       }
+       .top-right a{
+        color: #575757;
+        font-size: 13px;
+       }
+       .top-menu{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        display: flex;
+        gap: 60px;
+        margin: 0 auto;
+        
+        font-size: 13px;
+       }
+       .gradient-container{
+        margin: 0 auto;
+       }
+
+       body img{
+        width: 100%;
+       }
+       .content-i-img img{
+        width: 16px;
+       
+       }
+       .color{
+        width: 100%;
+        max-width: 172px;
+        max-height: 172px;
+       }
+       .footer-1{
+        display: grid;
+        align-items: center;
+        justify-content: start;
+       }
+       .strate-title{
+        font-size: 45px;
+       }
+    }
+
+    /* responsive phone */
+
+    @media (max-width: 776px) {
+        
+        .top-menu, .top-right{
+            display: none;
+        }
+        #mobileToggle{
+            display: flex;
+           color: #000000;
+           border: none;
+           background-color: transparent;
+           font-size: 13px;
+           font-weight: 500;
+        }
+    .logo{
+         padding: 18px 16px;
+    }
+    .hr-1{
+        display: none;
+    }
+        .guidelines, .content, .strategy, .tone-container, .typo-content{
+            display: grid;
+            justify-content: center;
+        }
+          .personality-con, .typo-content{
+            gap: 12px;
+         }
+         .strategy,.personality-con{
+            flex-direction: column;
+         }
+         .tone-container{
+            gap: 32px;
+         }
+
+         .s-card-container, .img-content-card-container, .color-container, .gradient-container, .card-container{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+         }
+    }
