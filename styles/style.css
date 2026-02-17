@@ -508,6 +508,9 @@ main {
         }
     .logo{
          padding: 18px 16px;
+         display: flex;
+         align-items: center;
+         gap: 200px;
     }
     .hr-1{
         display: none;
