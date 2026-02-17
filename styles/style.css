@@ -516,8 +516,9 @@ main {
         display: none;
     }
         .guidelines, .content, .strategy, .tone-container, .typo-content{
-            display: grid;
+            display: flex;
             justify-content: center;
+            flex-direction: column;
         }
           .personality-con, .typo-content{
             gap: 12px;
@@ -529,7 +530,7 @@ main {
             gap: 32px;
          }
 
-         .s-card-container, .img-content-card-container, .color-container, .gradient-container, .card-container{
+         .s-card-container, .img-content-card-container, .color-container, .gradient-container, .card-container, .size-content{
            display: flex;
            flex-direction: column;
            justify-content: center;
