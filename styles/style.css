@@ -220,3 +220,39 @@ main {
     flex-direction: column;
     gap: 20px;
 }
+
+
+ /* logo */
+
+ #logo{
+    padding: 32px 32px 120px 32px;
+    
+ }
+ .logo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ .img-container{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 40px;
+ }
+
+    /* incorrect */
+    .img-content-card-container{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 16px;
+    }
+
+    .img-content-card{
+        display: grid;
+        gap: 10px;
+    }
+    .content-i-img{
+        display: flex;
+    gap: 5px;
+    }
