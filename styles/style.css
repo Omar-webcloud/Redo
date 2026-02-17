@@ -201,3 +201,22 @@ main {
     max-width: 467px;
 
 }
+
+/* sample */
+
+.sample-container{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.s-card-container{
+    display: flex;
+    gap: 32px;
+}
+
+.s-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
