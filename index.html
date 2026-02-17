@@ -4,750 +4,744 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redo</title>
-    <link rel="stylesheet" href="styles/utils.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="/styles/utils.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
 
   <body>
-    <div class="body-line"></div>
-    <aside class="sidebar">
-      <div class="logo">
-        <a href=""><img src="./images/Vector.svg" alt="" /></a>
-      </div>
-      <hr class="divider" />
-
-      <nav class="side-nav">
-        <a href="#brand">Brand Strategy <span class="one">01</span></a>
-        <a href="#personality">Personality<span class="one">02</span></a>
-        <a href="#logo">Logo<span class="one">03</span></a>
-        <a href="#color">Color<span class="one">04</span></a>
-        <a href="#typography">Typography<span class="one">05</span></a>
-        <a href="#art">Art Direction<span class="one">06</span></a>
-      </nav>
-      <hr class="divider" />
-
-      <div class="sidebar-footer">
-        <a href="#download">Download Kit</a>
-        <a href="#contact">Contact Us</a>
-      </div>
-    </aside>
-
-    <!-- header -->
-    <header class="top-nav">
-      <div class="logo">
-        <div>
-          <div><img src="./images/Vector.svg" alt="" /></div>
-        </div>
-        <div class="top-right">
-          <a href="#download">Download Kit</a>
-          <a href="#contact">Contact Us</a>
-        </div>
-        <button class="mobile-toggle" id="mobileToggle">Menu</button>
-      </div>
-      <hr class="hr-1" />
-      <nav class="top-menu">
-        <a href="#brand">Brand Strategy <span class="one">01</span></a>
-        <a href="#personality">Personality<span class="one">02</span></a>
-        <a href="#logo">Logo<span class="one">03</span></a>
-        <a href="#color">Color<span class="one">04</span></a>
-        <a href="#typography">Typography<span class="one">05</span></a>
-        <a href="#art">Art Direction<span class="one">06</span></a>
-      </nav>
-      <nav class="mobile-menu" id="mobileMenu">
-        <hr class="divider" />
-        <a href="#brand">Brand Strategy <span class="one">01</span></a>
-        <a href="#personality">Personality<span class="one two">02</span></a>
-        <a href="#logo">Logo<span class="one three">03</span></a>
-        <a href="#color">Color<span class="one four">04</span></a>
-        <a href="#typography">Typography<span class="one five">05</span></a>
-        <a href="#art">Art Direction<span class="one six">06</span></a>
-        <hr class="divider" />
-        <a href="#download">Download Kit</a>
-        <a href="#contact">Contact Us</a>
-      </nav>
-    </header>
-
-    <main>
-      <!-- hero -->
-      <section>
-        <figure class="hero">
-          <img src="./images/Hero.png" alt="" />
-        </figure>
-      </section>
-
-      <!-- guidelines -->
-      <section>
-        <div class="guidelines">
-          <h1 class="guide">Brand Guidelines</h1>
-          <div class="guide-content">
-            <p class="guide-para guides">
-              This guide defines the visual language, design style, and
-              principles that shape a clear and consistent brand experience, no
-              matter the team or area of expertise.
-            </p>
-
-            <p class="guide-para">
-              At its core, Redo is about precision and clarity—just like our
-              mission to correct financial errors and optimize balance sheets.
-              This guide lays out the essential design standards that bring our
-              brand to life, from our color system and typography to
-              accessibility benchmarks and documentation.
-            </p>
-
-            <p class="guide-para">
-              Whether you're designing for digital platforms or printed
-              materials, these guidelines ensure every touchpoint reflects the
-              trust and efficiency at the heart of Redo.
-            </p>
-          </div>
-        </div>
-      </section>
-      <hr class="divider" />
-
-      <!-- content -->
-      <section>
-        <div class="content">
-          <h2 class="c-title">Contents</h2>
-          <ul class="c-list">
-            <li class="item">Brand Strategy</li>
-            <li class="item">Personality</li>
-            <li class="item">Logo</li>
-            <li class="item">Color</li>
-            <li class="item">Typography</li>
-            <li class="item">Art Direction</li>
-          </ul>
-        </div>
-      </section>
-      <hr class="divider" />
-
-      <!-- strategy -->
-      <section id="brand">
-        <div class="strategy">
-          <h1 class="strate-title"><span>01 </span> Brand Strategy</h1>
-          <div class="strate-content">
-            <p class="guide-para">
-              In the world of finance, mistakes happen— miscalculations,
-              overlooked expenses, inefficiencies that silently erode
-              profitability. Businesses lose money not because they aren’t
-              earning, but because errors go unchecked.
-            </p>
-            <p class="guide-para" style="margin-bottom: 32px">
-              Redo restores confidence in financial numbers.
-            </p>
+    <div class="container">
+      <div class="layout">
+        <!-- sidebar -->
+        <header class="sidebar">
+          <a class="brand">
             <img
-              class="strate-img"
-              style="margin-bottom: 32px"
-              src="./images/Image.png"
-              alt=""
+              src="./images/Vector.svg"
+              alt="Brand logo"
+              class="brand-logo"
             />
-            <p class="guide-para">
-              Born from the need for financial clarity, Redo was founded on a
-              simple yet powerful mission: to correct financial errors and
-              optimize balance sheets. We believe that precision is the key to
-              profitability, and that businesses shouldn’t be held back by
-              avoidable losses. With advanced technology and expert analysis, we
-              uncover discrepancies, eliminate inefficiencies, and restore
-              confidence in the numbers that drive success.
-            </p>
-            <p class="guide-para">
-              At Redo, we don’t just fix mistakes—we empower businesses to move
-              forward with accuracy and efficiency. Because when the numbers are
-              right, the future looks even brighter.
-            </p>
+          </a>
+          <div class="menu-toggle">
+            <button class="menu-toggle-btn">Menu</button>
           </div>
-        </div>
-      </section>
-      <hr class="divider" />
+          <nav class="side-nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#section-1" class="nav-link paragraph-1">
+                  Brand Strategy<sup class="display">01</sup></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#section-2" class="nav-link paragraph-1">
+                  Personality<sup class="display">02</sup></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#section-3" class="nav-link paragraph-1">
+                  Logo<sup class="display">03</sup></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#section-4" class="nav-link paragraph-1">
+                  Color<sup class="display">04</sup></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#section-5" class="nav-link paragraph-1">
+                  Typography<sup class="display">05</sup></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#section-6" class="nav-link paragraph-1">
+                  Art Direction<sup class="display">06</sup></a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="sidebar-footer">
+            <div class="sidebar-action">
+              <a href="#" class="action-link">Download kit</a>
+            </div>
+            <div class="sidebar-action">
+              <a href="#" class="action-link">Contact us</a>
+            </div>
+          </div>
+        </header>
+        <!-- content -->
+        <main class="main-content">
+          <!-- hero -->
+          <section class="hero">
+            <img src="./images/Hero.png" alt="" />
+          </section>
 
-      <!-- personality -->
-      <section id="personality">
-        <div class="personality">
-          <div class="personality-con">
-            <h1 class="strate-title"><span>02 </span>Personality</h1>
-            <p class="guide-para guide-para1" style="max-width: 467px">
-              Redo’s voice brings our brand to life through the words we write
+          <!-- guidelines -->
+          <section class="guidelines p-32">
+            <div class="guide-heading">
+              <h1 class="heading-1">
+                Brand <br />
+                Guidelines
+              </h1>
+            </div>
+            <div class="guide-content paragraph-1">
+              <p>
+                This guide defines the visual language, design style, and
+                principles that shape a clear and consistent brand experience,
+                no matter the team or area of expertise.
+              </p>
+              <br />
+              <br />
+              <p>
+                At its core, Redo is about precision and clarity—just like our
+                mission to correct financial errors and optimize balance sheets.
+                This guide lays out the essential design standards that bring
+                our brand to life, from our color system and typography to
+                accessibility benchmarks and documentation.
+              </p>
+              <br />
+              <br />
+              <p>
+                Whether you're designing for digital platforms or printed
+                materials, these guidelines ensure every touchpoint reflects the
+                trust and efficiency at the heart of Redo.
+              </p>
+            </div>
+          </section>
+
+          <!-- contents -->
+          <section class="content-table p-32">
+            <div class="content-heading">
+              <h2 class="heading-2">Contents</h2>
+            </div>
+
+            <div class="content-info">
+              <h2 class="heading-2">
+                <span class="content-num">01</span> Brand Strategy
+              </h2>
+              <h2 class="heading-2">
+                <span class="content-num">02</span> Personality
+              </h2>
+              <h2 class="heading-2">
+                <span class="content-num">03</span> Logo
+              </h2>
+              <h2 class="heading-2">
+                <span class="content-num">04</span> Color
+              </h2>
+              <h2 class="heading-2">
+                <span class="content-num">05</span> Typography
+              </h2>
+              <h2 class="heading-2">
+                <span class="content-num">06</span> Art Direction
+              </h2>
+            </div>
+          </section>
+
+          <!-- strategy -->
+          <section id="section-1" class="strategy p-32">
+            <div class="strategy-heading">
+              <h1 class="heading-1">
+                <span class="span-orange">01 </span>Brand <br />Strategy
+              </h1>
+            </div>
+
+            <div class="strategy-info">
+              <p class="strategy-content">
+                In the world of finance, mistakes happen—miscalculations,
+                overlooked expenses, inefficiencies that silently erode
+                profitability. Businesses lose money not because they aren't
+                earning, but because errors go unchecked.
+                <br />
+                <br />
+                Redo restores confidence in financial numbers.
+              </p>
+
+              <img
+                src="./images/Image.png"
+                alt="Illustration representing Redo's brand strategy"
+              />
+
+              <p class="strategy-content">
+                Born from the need for financial clarity, Redo was founded on a
+                simple yet powerful mission: to correct financial errors and
+                optimize balance sheets. We believe that precision is the key to
+                profitability, and that businesses shouldn't be held back by
+                avoidable losses. With advanced technology and expert analysis,
+                we uncover discrepancies, eliminate inefficiencies, and restore
+                confidence in the numbers that drive success.
+                <br /><br />
+                At Redo, we don't just fix mistakes—we empower businesses to
+                move forward with accuracy and efficiency. Because when the
+                numbers are right, the future looks even brighter.
+              </p>
+            </div>
+          </section>
+
+          <!-- personality -->
+          <section id="section-2" class="personality p-32">
+            <div class="personality-heading">
+              <h1 class="heading-1">
+                <span class="span-orange">02 </span>Personality
+              </h1>
+            </div>
+
+            <div class="personality-info personality-content">
+              Redo's voice brings our brand to life through the words we write
               and speak. The way we communicate with customers has the power to
               transform their financial well-being. Through clear and
               intentional language, we make financial corrections simple,
               accessible, and stress-free. Our direct, approachable, and
               transparent voice ensures that fixing mistakes feels effortless—so
               our customers can move forward with confidence.
-            </p>
-          </div>
+            </div>
+          </section>
 
-          <figure>
-            <img class="personality-img" src="./images/IMG.png" alt="" />
-          </figure>
+          <section class="personality-img p-32">
+            <img src="./images/IMG.png" alt="" />
+          </section>
 
-          <div class="tone-container">
-            <h4 class="tone">Tone & voice</h4>
-            <div class="tone-content">
+          <!-- tone -->
+          <section class="tone-container p-32">
+            <div class="tone-heading">
+              <h3 class="heading-3">Tone & Voice</h3>
+            </div>
+            <div class="tone-info">
               <div>
-                <h6 class="h6">Our Vision:why we exist</h6>
-                <p class="guide-para">
+                <p class="paragraph-2-bold">Our Vision: why we exist</p>
+                <p class="paragraph-1">
                   To create a future where every business maximizes their
                   potential.
                 </p>
               </div>
               <div>
-                <h6 class="h6">Our Mission:what we do</h6>
-                <p class="guide-para">
+                <p class="paragraph-2-bold">Our Mission: what we do</p>
+                <p class="paragraph-1 text-gray">
                   Correct financial errors and optimize balance sheets
                 </p>
               </div>
               <div>
-                <h6 class="h6">Our Promise:how we help</h6>
-                <p class="guide-para">
+                <p class="paragraph-2-bold">Our Promise: how we help</p>
+                <p class="paragraph-1 text-gray">
                   Empower businesses to move forward with accuracy and
                   efficiency
                 </p>
               </div>
             </div>
-          </div>
-          <hr class="divider" />
+          </section>
 
-          <div class="sample-container">
-            <h4 class="tone tone1">Sample Copy</h4>
-            <div class="s-card-container">
-              <article class="s-card">
-                <h6 class="h6">Your Finances, Fixed the Right Way</h6>
-                <p class="guide-para">
+          <!-- sample -->
+          <section class="sample-container p-32">
+            <div class="sample-heading">
+              <h2 class="heading-3">Sample Copy</h2>
+            </div>
+
+            <div class="sample-info">
+              <div class="sample-content">
+                <p class="paragraph-2-bold">
+                  Your Finances, Fixed the Right Way
+                </p>
+                <p class="paragraph-1 text-gray">
                   Precision matters when it comes to financial corrections. A
                   small error can have a big impact on your savings, credit
                   score, or future financial goals.
                 </p>
-              </article>
+              </div>
 
-              <article class="s-card">
-                <h6 class="h6">We Handle the Fix, You Focus on What Matters</h6>
-                <p class="guide-para">
-                  Your time is valuable, and dealing with financial errors
-                  shouldn’t take up more of it than necessary. Whether it’s an
-                  unexpected overdraft fee or a billing mistake, we take care of
-                  the correction process for you
+              <div class="sample-content">
+                <p class="paragraph-2-bold">
+                  We Handle the Fix, You Focus on What Matters
                 </p>
-              </article>
+                <p class="paragraph-1 text-gray">
+                  Your time is valuable, and dealing with financial errors
+                  shouldn't take up more of it than necessary. Whether it's an
+                  unexpected overdraft fee or a billing mistake, we take care of
+                  the correction process for you.
+                </p>
+              </div>
 
-              <article class="s-card">
-                <h6 class="h6">
-                  Mistakes Don’t Have to Cost You—We’ve Got Your Back
-                </h6>
-                <p class="guide-para">
-                  An overlooked charge or a simple accounting mistake shouldn’t
+              <div class="sample-content">
+                <p class="paragraph-2-bold">
+                  Mistakes Don't Have to Cost You—We've Got Your Back
+                </p>
+                <p class="paragraph-1 text-gray">
+                  An overlooked charge or a simple accounting mistake shouldn't
                   throw off your financial plans. We step in to identify and
                   correct these issues before they become bigger problems.
                 </p>
-              </article>
+              </div>
 
-              <article class="s-card">
-                <h6 class="h6">See an Error? We’ll Make It Right</h6>
-                <p class="guide-para">
+              <div class="sample-content">
+                <p class="paragraph-2-bold">
+                  See an Error? We'll Make It Right.
+                </p>
+                <p class="paragraph-1 text-gray">
                   Not sure what that unexpected charge is? Worried about an
                   incorrect withdrawal? Instead of worrying or assuming the
                   worst, let us investigate and resolve the issue for you.
                 </p>
-              </article>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <hr class="divider" />
+          </section>
 
-      <!-- logo -->
-      <section id="logo">
-        <div class="logo-container">
-          <div class="personality-con">
-            <h1 class="strate-title logo1"><span>03 </span> Logo</h1>
-            <div class="logo-content" style="max-width: 467px">
-              <p class="guide-para">
+          <!-- logo -->
+          <section id="section-3" class="logo-section p-32">
+            <div class="logo-intro">
+              <h1 class="heading-1">
+                <span class="span-orange">03</span> Logo
+              </h1>
+              <p class="paragraph-1 text-gray">
                 The Redo logo is a sleek, modern arrow that curves backward,
                 symbolizing the power to rewind, correct, and optimize financial
                 decisions. The reversed motion represents our core
                 mission—helping businesses go back, fix errors, and recover lost
                 value.
-              </p>
-              <p class="guide-para">
+                <br /><br />
                 Designed with clean, sharp lines, the arrow conveys precision
                 and efficiency, while its fluid motion suggests agility and
                 adaptability in financial correction. The color palette
                 reinforces trust and clarity—deep blues or greens for stability,
                 complemented by bold accents to signify action and resolution.
-              </p>
-              <p class="guide-para">
+                <br /><br />
                 More than just a symbol, the Redo logo embodies our commitment
                 to turning financial missteps into opportunities for
-                growth—because tin business, every mistake deserves a second
+                growth—because in business, every mistake deserves a second
                 chance.
               </p>
             </div>
-          </div>
-
-          <div class="img-container">
-            <div class="image-content">
-              <h4 class="tone" style="margin-bottom: 10px">Primary Lockup</h4>
-              <div class="i-d">
-                <img class="i" src="./images/IMG-11.png" alt="" />
+            <div class="logo-images">
+              <div class="logo-image-content">
+                <h3 class="heading-3">Primary Lockup</h3>
+                <img src="./images/IMG-11.png" alt="" />
+              </div>
+              <div class="logo-image-content">
+                <h3 class="heading-3">Clearspace</h3>
+                <img src="./images/img-333.png" alt="" />
+              </div>
+              <div class="logo-image-content">
+                <h3 class="heading-3">Secondary Lockup</h3>
+                <img src="./images/IMG-44.png" alt="" />
+              </div>
+              <div class="logo-image-content">
+                <h3 class="heading-3">Incorrect Usage</h3>
+                <div class="logo-grid">
+                  <div class="logo-grid-item">
+                    <img src="./images/IMG-5.png" alt="" />
+                    <div class="logo-grid-caption">
+                      <img src="./images/Icon 1.svg" alt="" />
+                      <p class="caption-2">Do not resize the mark</p>
+                    </div>
+                  </div>
+                  <div class="logo-grid-item">
+                    <img src="./images/redo-1.png" alt="" />
+                    <div class="logo-grid-caption">
+                      <img src="./images/Icon 1.svg" alt="" />
+                      <p class="caption-2">Do not rotate the logo</p>
+                    </div>
+                  </div>
+                  <div class="logo-grid-item">
+                    <img src="./images/redo-5.png" alt="" />
+                    <div class="logo-grid-caption">
+                      <img src="./images/Icon 1.svg" alt="" />
+                      <p class="caption-2">
+                        Do not change the color of the mark alone
+                      </p>
+                    </div>
+                  </div>
+                  <div class="logo-grid-item">
+                    <img src="./images/redo-4.png" alt="" />
+                    <div class="logo-grid-caption">
+                      <img src="./images/Icon 1.svg" alt="" />
+                      <p class="caption-2">Do not outline the logo</p>
+                    </div>
+                  </div>
+                  <div class="logo-grid-item">
+                    <img src="./images/redo-3.png" alt="" />
+                    <div class="logo-grid-caption">
+                      <img src="./images/Icon 1.svg" alt="" />
+                      <p class="caption-2">Do not reverse the lockup</p>
+                    </div>
+                  </div>
+                  <div class="logo-grid-item">
+                    <img src="./images/redo-2.png" alt="" />
+                    <div class="logo-grid-caption">
+                      <img src="./images/Icon 1.svg" alt="" />
+                      <p class="caption-2">Do not add gradients the logo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="logo-image-content">
+                <h3 class="heading-3">Partnerships</h3>
+                <img src="./images/IMG-12.png" alt="" />
               </div>
             </div>
+          </section>
 
-            <div class="image-content">
-              <h4 class="tone clear1" style="margin-bottom: 10px">
-                Clearspace
-              </h4>
-              <div class="i-d">
-                <img class="i" src="./images/img-333.png" alt="" />
-              </div>
-            </div>
-
-            <div class="image-content">
-              <h4 class="tone Secondary1" style="margin-bottom: 10px">
-                Secondary Lockups
-              </h4>
-              <div class="i-d">
-                <img class="i" src="./images/IMG-44.png" alt="" />
-              </div>
-            </div>
-
-            <div class="image-content">
-              <h4 class="tone incorrect1" style="margin-bottom: 10px">
-                Incorrect Usage
-              </h4>
-
-              <div class="img-content-card-container">
-                <figure class="img-content-card">
-                  <img src="./images/IMG-5.png" alt="" />
-                  <figcaption class="content-i-img">
-                    <img src="./images/Icon 1.svg" alt="" />
-                    <p class="icon-caption">Do not resize the mark</p>
-                  </figcaption>
-                </figure>
-                <figure class="img-content-card">
-                  <img src="./images/redo-1.png" alt="" />
-                  <figcaption class="content-i-img">
-                    <img src="./images/Icon 1.svg" alt="" />
-                    <p class="icon-caption">Do not rotate the logo</p>
-                  </figcaption>
-                </figure>
-                <figure class="img-content-card">
-                  <img src="./images/redo-5.png" alt="" />
-                  <figcaption class="content-i-img">
-                    <img src="./images/Icon 1.svg" alt="" />
-                    <p class="icon-caption">Do not change the color of the mark alone</p>
-                  </figcaption>
-                </figure>
-                <figure class="img-content-card">
-                  <img src="./images/redo-4.png" alt="" />
-                  <figcaption class="content-i-img">
-                    <img src="./images/Icon 1.svg" alt="" />
-                    <p class="icon-caption">Do not outline the logo</p>
-                  </figcaption>
-                </figure>
-                <figure class="img-content-card">
-                  <img src="./images/redo-3.png" alt="" />
-                  <figcaption class="content-i-img">
-                    <img src="./images/Icon 1.svg" alt="" />
-                    <p class="icon-caption">Do not reverse the lockup</p>
-                  </figcaption>
-                </figure>
-                <figure class="img-content-card">
-                  <img src="./images/redo-2.png" alt="" />
-                  <figcaption class="content-i-img">
-                    <img src="./images/Icon 1.svg" alt="" />
-                    <p class="icon-caption">Do not add gradients the logo</p>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-
-            <div class="image-content">
-              <h4 class="tone Partnerships" style="margin-bottom: 10px">
-                Partnerships
-              </h4>
-              <img src="./images/IMG-12.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="divider" />
-
-      <!-- color -->
-      <section id="color">
-        <div class="color-containers">
-          <div class="personality-con">
-            <h1 class="strate-title color-1"><span>04 </span> Color</h1>
-            <div class="color-content" style="max-width: 467px">
-              <p class="guide-para">
-                Redo’s color palette is designed to evoke trust, reliability,
+          <!-- color -->
+          <section id="section-4" class="color-section p-32">
+            <div class="color-intro">
+              <h1 class="heading-1">
+                <span class="span-orange">04</span> Color
+              </h1>
+              <p class="paragraph-1 text-gray">
+                Redo's color palette is designed to evoke trust, reliability,
                 and financial clarity, ensuring that every touchpoint reflects
                 our commitment to accuracy and efficiency.
-              </p>
-              <p class="guide-para">
+                <br /><br />
                 Together, these colors create a strong, dependable, and
                 forward-thinking brand identity, ensuring that Redo is instantly
                 recognized as the go-to solution for financial corrections and
                 optimization.
               </p>
             </div>
-          </div>
 
-          <div>
-            <div class="color-card-container">
-              <h4 class="tone" style="margin-bottom: 40px; margin-top: 40px">
-                Primary-palatte
-              </h4>
-              <div class="color-container">
-                <div class="color-card">
-                  <div class="color" style="background-color: #FA9819;"></div>
-                  <p class="color-name">Orange</p>
-                  <p class="color-code">Hex: #FA9819</p>
-                </div>
-                <div class="color-card">
-                  <div class="color color1" style="background-color: #B6C9CF;"></div>
-                  <p class="color-name">Blue Tint</p>
-                  <p class="color-code">Hex: #B6C9CF</p>
-                </div>
-                <div class="color-card">
-                  <div class="color color2" style="background-color:  #000000;"></div>
-                  <p class="color-name">White</p>
-                  <p class="color-code">Hex: #000000</p>
-                </div>
-                <div class="color-card">
-                  <div class="color color3"  style="background-color: #C6EBF7;"></div>
-                  <p class="color-name">Baby Blue</p>
-                  <p class="color-code">Hex: #C6EBF7</p>
-                </div>
-              </div>
-
-              <h4 class="tone" style="margin-bottom: 20px; margin-top: 64px">
-                Secondary-palatte
-              </h4>
-              <div class="color-container">
-                <div class="color-card">
-                  <div class="color 11"  style="background-color: #1E3D59;"></div>
-                  <p class="color-name">Navy</p>
-                  <p class="color-code">Hex: #1E3D59</p>
-                </div>
-                <div class="color-card">
-                  <div class="color color4"  style="background-color: #48749E;"></div>
-                  <p class="color-name">Caption</p>
-                  <p class="color-code">Hex: #48749E</p>
-                </div>
-                <div class="color-card">
-                  <div class="color color5"  style="background-color: #DEEEFE;"></div>
-                  <p class="color-name">Sky Blue</p>
-                  <p class="color-code">Hex: #DEEEFE</p>
-                </div>
-                <div class="color-card">
-                  <div class="color color6"  style="background-color:  #E8EBEF;"></div>
-                  <p class="color-name" >Off-blue</p>
-                  <p class="color-code">Hex: #E8EBEF</p>
-                </div>
-
-                <div class="color-card">
-                  <div class="color color7" style="background-color: #CD4900;"></div>
-                  <p class="color-name">Deep Orange</p>
-                  <p class="color-code">Hex: #CD4900</p>
-                </div>
-
-                <div class="color-card">
-                  <div class="color color8" style="background-color:  #000000;"></div>
-                  <p class="color-name">Black</p>
-                  <p class="color-code">Hex: #000000</p>
-                </div>
-
-                <div class="color-card">
-                  <div class="color color9" style="background-color: #A3A3A3;"></div>
-                  <p class="color-name">Dark Grey</p>
-                  <p class="color-code">Hex: #A3A3A3</p>
-                </div>
-
-                <div class="color-card">
-                  <div class="color color10" style="background-color: #E5E5E5;"></div>
-                  <p class="color-name">Grey</p>
-                  <p class="color-code">Hex: #E5E5E5</p>
+            <div class="color-contents">
+              <div class="color-primary">
+                <h3 class="heading-3">Primary Palette</h3>
+                <div class="color-grid">
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#FA9819;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Orange</p>
+                      <p class="caption-2">Hex: #FA9819</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#B6C9CF;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Blue Tint</p>
+                      <p class="caption-2">Hex: #B6C9CF</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#FFFFFF;border-radius:50%;border:1px solid rgba(0,0,0,0.1)"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">White</p>
+                      <p class="caption-2">Hex: #FFFFFF</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#C6EBF7;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Baby Blue</p>
+                      <p class="caption-2">Hex: #C6EBF7</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <h4
-                class="tone"
-                style="
-                  margin-bottom: 20px;
-                  margin-top: 64px;
-                  /* margin-left: 32px; */
-                  margin-right: 32px;
-                "
-              >
-                Gradient Palette
-              </h4>
-
-              <div class="gradient-container">
-                <figure class="gradient">
-                  <img src="./images/gardient-1.png" alt="" />
-                  <figcaption class="color-name gradient-label">Gradient 1</figcaption>
-                </figure>
-                <figure class="gradient">
-                  <img src="./images/gradient-2.png" alt="" />
-                  <figcaption class="color-name gradient-label">Gradient 2</figcaption>
-                </figure>
-                <figure class="gradient">
-                  <img src="./images/gradient-3.png" alt="" />
-                  <figcaption class="color-name gradient-label">Gradient 3</figcaption>
-                </figure>
-                <figure class="gradient">
-                  <img src="./images/gradient-4.png" alt="" />
-                  <figcaption class="color-name gradient-label">Gradient 4</figcaption>
-                </figure>
+              <div class="color-secondary">
+                <h3 class="heading-3">Secondary Palette</h3>
+                <div class="color-grid-secondary">
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#1E3D59;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Navy</p>
+                      <p class="caption-2">Hex: #1E3D59</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#48749E;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Caption</p>
+                      <p class="caption-2">Hex: #48749E</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#DEEEFE;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Sky Blue</p>
+                      <p class="caption-2">Hex: #DEEEFE</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#E8EBEF;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Off-blue</p>
+                      <p class="caption-2">Hex: #E8EBEF</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#CD4900;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Deep Orange</p>
+                      <p class="caption-2">Hex: #CD4900</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#000000;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Black</p>
+                      <p class="caption-2">Hex: #000000</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#A3A3A3;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Dark Grey</p>
+                      <p class="caption-2">Hex: #A3A3A3</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <div style="width:100%;aspect-ratio:1/1;background:#E5E5E5;border-radius:50%"></div>
+                    <div class="color-card-caption">
+                      <p class="caption-2">Grey</p>
+                      <p class="caption-2">Hex: #E5E5E5</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr class="divider" />
-
-      <!-- typography -->
-      <section id="typography">
-        <div class="typography-container">
-          <div class="typo-content">
-            <h1 class="strate-title"><span>05 </span> Typography</h1>
-            <div
-              class="guide-content"
-              style="margin-bottom: 40px; max-width: 467px"
-            >
-              <p class="guide-para" style="margin-bottom: 40px">
-                Redo’s typography balances clarity and professionalism with a
-                modern yet timeless type pairing, reinforcing our commitment to
-                accuracy, efficiency, and financial stability.
-              </p>
-
-              <div class="typo-div-img">
-                <img
-                  class="typo-img"
-                  src="./images/letter.png"
-                  style="margin-bottom: 40px"
-                  alt=""
-                />
-              </div>
-
-              <p class="guide-para">
-                Primary Sans-Serif <span>(Rethink Sans Reg)</span> is a clean,
-                modern sans-serif typeface that ensures legibility and precision
-                across all digital and print materials. Its geometric structure
-                reflects clarity, efficiency, and trust, making it the ideal
-                choice for data-heavy content, dashboards, and user interfaces.
-              </p>
-
-              <p class="guide-para">
-                Secondary Serif <span>(Hedvig Letters Serif)</span> is a
-                refined, authoritative serif font that adds a touch of tradition
-                and credibility. Used for emphasis in headlines, reports, and
-                financial documents, it reinforces Redo’s expertise and
-                reliability in correcting financial discrepancies.
-              </p>
-
-              <p class="guide-para">
-                This sans-serif and serif combination creates a dynamic
-                contrast—modern yet trustworthy, analytical yet approachable,
-                ensuring Redo’s brand communication is always clear,
-                professional, and dependable.
-              </p>
-            </div>
-          </div>
-
-          <div class="type-container">
-            <div class="primar-think">
-              <div>
-                <h5 class="primary">Primary Typeface</h5>
-                <h1 class="rethink">Rethink Sans Reg</h1>
-              </div>
-              <div>
-                <h5 class="primary">Secondary Typeface</h5>
-                <h1 class="rethink" style="font-family: var(--font-headvig)">
-                  Hedvig Letters Serif
-                </h1>
+              <div class="color-gradient">
+                <h3 class="heading-3">Gradient Palette</h3>
+                <div class="color-grid-gradient">
+                  <div class="color-card">
+                    <img src="./images/gardient-1.png" alt="" />
+                    <div class="color-card-caption">
+                      <p class="caption-2">Gradient 1</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <img src="./images/gradient-2.png" alt="" />
+                    <div class="color-card-caption">
+                      <p class="caption-2">Gradient 2</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <img src="./images/gradient-3.png" alt="" />
+                    <div class="color-card-caption">
+                      <p class="caption-2">Gradient 3</p>
+                    </div>
+                  </div>
+                  <div class="color-card">
+                    <img src="./images/gradient-4.png" alt="" />
+                    <div class="color-card-caption">
+                      <p class="caption-2">Gradient 4</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <hr class="divider" />
-          </div>
-          <div class="size">
-            <div class="size-content">
-              <h4 class="tone">Sizing</h4>
-              <p
-                class="guide-para"
-                style="max-width: 419px; margin-bottom: 40px"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+          </section>
 
-            <div class="clear">
-              <h1 class="clear-title">
-                Clear Up Confusion, <br>Gain Peace of Mind
+          <!-- typography -->
+          <section id="section-5" class="typography-section p-32">
+            <div class="typo-intro">
+              <h1 class="heading-1">
+                <span class="span-orange">05</span> Typography
               </h1>
-              <div class="clear-content">
-                <p>Type Sizes > 72pt/px</p>
-                <p>100% Leading</p>
-                <p>-2% Tracking</p>
+              <div class="typo-heading">
+                <p class="paragraph-1 text-gray">
+                  Redo's typography balances clarity and professionalism with a
+                  modern yet timeless type pairing, reinforcing our commitment
+                  to accuracy, efficiency, and financial stability.
+                </p>
+                <br /><br />
+                <div class="typo-heading-img">
+                  <img src="./images/letter.png" alt="" />
+                </div>
+                <br /><br />
+                <p>
+                  Primary Sans-Serif
+                  <span class="span-orange">(Rethink Sans Reg)</span> is a
+                  clean, modern sans-serif typeface that ensures legibility and
+                  precision across all digital and print materials. Its
+                  geometric structure reflects clarity, efficiency, and trust,
+                  making it the ideal choice for data-heavy content, dashboards,
+                  and user interfaces. <br /><br />
+                  Secondary Serif
+                  <span class="span-orange">(Hedvig Letters Serif)</span> is a
+                  refined, authoritative serif font that adds a touch of
+                  tradition and credibility. Used for emphasis in headlines,
+                  reports, and financial documents, it reinforces Redo's
+                  expertise and reliability in correcting financial
+                  discrepancies.
+                  <br />
+                  <br />
+                  This sans-serif and serif combination creates a dynamic
+                  contrast—modern yet trustworthy, analytical yet approachable,
+                  ensuring Redo's brand communication is always clear,
+                  professional, and dependable.
+                </p>
               </div>
-              <hr class="divider" />
             </div>
-            <div class="clear">
-              <h1
-                class="clear-title"
-                style="font-size: 32px; margin-top: 70px; max-width: 654px"
-              >
-                Whether it’s a bank error, an unauthorized charge, or an
-                overlooked refund, we ensure you don’t pay for something you
-                shouldn’t have.
-              </h1>
-              <div class="clear-content">
-                <p>Type Sizes 55–72pt/px</p>
-                <p>110% Leading</p>
-                <p>-2% Tracking</p>
+            <div class="typo-content">
+              <div class="typeface">
+                <div class="typeface-item">
+                  <div>
+                    <p class="link">Primary Typeface</p>
+                  </div>
+                  <div>
+                    <h1 class="normal">Rethink Sans Reg</h1>
+                  </div>
+                </div>
+                <div class="typeface-item">
+                  <div>
+                    <p class="link">Secondary Typeface</p>
+                  </div>
+                  <div>
+                    <h1 class="secondary-normal">Hedvig Letters Serif</h1>
+                  </div>
+                </div>
               </div>
-              <hr class="divider" />
-            </div>
-            <div class="clear">
-              <h1
-                class="clear-title"
-                style="font-size: 20px; margin-top: 70px; max-width: 505px"
-              >
-                Our team works diligently to recover lost funds, correct
-                inaccuracies, and keep your financial records accurate—so you
-                can feel confident about every dollar in your account.
-              </h1>
-              <div class="clear-content">
-                <p>Type Sizes 24–55pt/px</p>
-                <p>120% Leading</p>
-                <p>-1% Tracking</p>
-              </div>
-              <hr class="divider" />
-            </div>
-            <div class="clear">
-              <h1
-                class="clear-title"
-                style="font-size: 14px; margin-top: 70px; max-width: 517px; font-family: 'Hedvig Letters Serif';"
-              >
-                Financial errors shouldn’t slow you down or cause unnecessary
-                stress. Whether it’s an incorrect charge, a duplicate
-                transaction, or a miscalculated fee, we step in to make things
-                right. Our process is simple, straightforward, and designed to
-                get your money back where it belongs—quickly and without hassle.
-              </h1>
-              <div class="clear-content">
-                <p>Type Sizes 0–24pt/px</p>
-                <p>130% Leading</p>
-                <p>0% Tracking</p>
-              </div>
-              <hr class="divider" style="margin-bottom: 30px" />
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- art -->
-      <hr class="divider" />
-      <section id="art">
-        <div class="art-container">
-          <div class="typo-content">
-            <h1 class="strate-title"><span>06 </span> Art Direction</h1>
-            <div
-              class="guide-content"
-              style="margin-bottom: 40px; max-width: 467px"
-            >
-              <p class="guide-para" style="margin-bottom: 40px">
-                Redo’s photography style reinforces our brand’s core
+              <div class="typo-sizing-wrap">
+                <div class="typo-sizing">
+                  <h3 class="heading-3">Sizing</h3>
+                  <p class="text-gray paragraph-1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+
+                <div class="typo-variations">
+                  <div class="typo-variation">
+                    <h1 class="normal-50">
+                      Clear Up Confusion,<br />
+                      Gain Peace of Mind
+                    </h1>
+                    <div class="typo-variation-footer caption-2 text-gray">
+                      <p>Type Sizes > 72pt/px</p>
+                      <p>100% Leading</p>
+                      <p>-2% Tracking</p>
+                    </div>
+                  </div>
+
+                  <div class="typo-variation">
+                    <h2 class="normal-32">
+                      Whether it's a bank error, an unauthorized charge, or an
+                      overlooked refund, we ensure you don't pay for something
+                      you shouldn't have.
+                    </h2>
+                    <div class="typo-variation-footer caption-2 text-gray">
+                      <p>Type Sizes 55–72pt/px</p>
+                      <p>110% Leading</p>
+                      <p>-2% Tracking</p>
+                    </div>
+                  </div>
+
+                  <div class="typo-variation">
+                    <h3 class="normal-20">
+                      Our team works diligently to recover lost funds, correct
+                      inaccuracies, and keep your financial records accurate—so
+                      you can feel confident about every dollar in your account.
+                    </h3>
+                    <div class="typo-variation-footer caption-2 text-gray">
+                      <p>Type Sizes 24–55pt/px</p>
+                      <p>120% Leading</p>
+                      <p>-1% Tracking</p>
+                    </div>
+                  </div>
+
+                  <div class="typo-variation">
+                    <h4 class="secondary-normal-14">
+                      Financial errors shouldn't slow you down or cause
+                      unnecessary stress. Whether it's an incorrect charge, a
+                      duplicate transaction, or a miscalculated fee, we step in
+                      to make things right. Our process is simple,
+                      straightforward, and designed to get your money back where
+                      it belongs—quickly and without hassle.
+                    </h4>
+                    <div class="typo-variation-footer caption-2 text-gray">
+                      <p>Type Sizes 24–55pt/px</p>
+                      <p>120% Leading</p>
+                      <p>-1% Tracking</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- art -->
+          <section id="section-6" class="art-section p-32">
+            <div class="art-intro">
+              <h1 class="heading-1">
+                <span class="span-orange">06</span> Art Direction
+              </h1>
+              <p class="paragraph-1 text-gray">
+                Redo's photography style reinforces our brand's core
                 values—trust, clarity, and financial empowerment—by showcasing
                 visuals that reflect professionalism, accuracy, and control.
               </p>
             </div>
-          </div>
+            <div class="art-contents">
+              <div class="art-grid">
+                <div class="color-card">
+                  <img src="./images/woman.png" alt="" />
+                  <div class="color-card-caption" style="gap: 8px">
+                    <p class="caption-2">Clean & Casual</p>
+                    <p class="caption-2 text-gray">
+                      Photography should feature modern, well-lit workspaces
+                      with a clean and organized feel. The focus should be on
+                      clarity, avoiding clutter or overly dramatic compositions.
+                    </p>
+                  </div>
+                </div>
+                <div class="color-card">
+                  <img src="./images/man3.png" alt="" />
+                  <div class="color-card-caption" style="gap: 8px">
+                    <p class="caption-2">Subtle Technology Integration</p>
+                    <p class="caption-2 text-gray">
+                      Photography should include elements of financial
+                      technology—computer screens displaying dashboards, tablets
+                      with data analytics, or hands interacting with financial
+                      tools—to highlight Redo's tech-driven approach to error
+                      correction.
+                    </p>
+                  </div>
+                </div>
+                <div class="color-card">
+                  <img src="./images/man2.png" alt="" />
+                  <div class="color-card-caption" style="gap: 8px">
+                    <p class="caption-2">Financial Storytelling</p>
+                    <p class="caption-2 text-gray">
+                      Images should capture real-world financial
+                      scenarios—professionals analyzing reports, business owners
+                      reviewing balance sheets, and teams discussing financial
+                      strategies. This reinforces Redo's role in helping
+                      businesses take control of their finances.
+                    </p>
+                  </div>
+                </div>
+                <div class="color-card">
+                  <img src="./images/man.png" alt="" />
+                  <div class="color-card-caption" style="gap: 8px">
+                    <p class="caption-2">People with Confidence & Focus</p>
+                    <p class="caption-2 text-gray">
+                      Images should capture real-world financial
+                      scenarios—professionals analyzing reports, business owners
+                      reviewing balance sheets, and teams discussing financial
+                      strategies. This reinforces Redo's role in helping
+                      businesses take control of their finances.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-          <div class="card-container">
-            <article class="card">
-              <img src="./images/woman.png" alt="" />
-              <div class="card-content">
-                <h6 class="card-title">Clean & Casual</h6>
-                <p class="card-para">
-                  Photography should feature modern, well-lit workspaces with a
-                  clean and organized feel. The focus should be on clarit,
-                  avoiding clutter or overly dramatic compositions.
-                </p>
-              </div>
-            </article>
-            <article class="card">
-              <img src="./images/man3.png" alt="" />
-              <div class="card-content">
-                <h6 class="card-title">Subtle Technology Integration</h6>
-                <p class="card-para">
-                  Photography should include elements of financial
-                  technology—computer screens displaying dashboards, tablets
-                  with data analytics, or hands interacting with financial
-                  tools—to highlight Redo’s tech-driven approach to error
-                  correction
-                </p>
-              </div>
-            </article>
-            <article class="card">
-              <img src="./images/man2.png" alt="" />
-              <div class="card-content">
-                <h6 class="card-title">Financial Storytelling</h6>
-                <p class="card-para">
-                  Images should capture real-world financial
-                  scenarios—professionals analyzing reports, business owners
-                  reviewing balance sheets, and teams discussing financial
-                  strategies. This reinforces Redo’s role in helping businesses
-                  take control of their finances.
-                </p>
-              </div>
-            </article>
-            <article class="card">
-              <img src="./images/man.png" alt="" />
-              <div class="card-content">
-                <h6 class="card-title">People with Confidence & Focus</h6>
-                <p class="card-para">
-                  Images should capture real-world financial
-                  scenarios—professionals analyzing reports, business owners
-                  reviewing balance sheets, and teams discussing financial
-                  strategies. This reinforces Redo’s role in helping businesses
-                  take control of their finances.
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+          <!-- footer -->
+          <footer class="footer">
+            <div class="footer-top">
+              <img src="./images/Content.svg" alt="Redo logo" />
 
-      <footer>
-      <div class="footer-container">
-        <div class="footer-1">
-          <img src="./images/Content.svg" alt="" />
-          <nav class="f-item">
-            <a href="#">Download Kit</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Back to the top</a>
-          </nav>
-        </div>
-        <hr class="divider" />
-        <div class="footer-2">
-          <div class="footer-2-content">
-            <p class="footer-link">© Redo</p>
-            <a class="footer-link" href="">Legal</a>
-            <a class="footer-link" href="">Privacy</a>
-          </div>
-          <div>
-            <p class="footer-link">All rights reserved</p>
-          </div>
-        </div>
+              <ul class="footer-nav">
+                <li><a href="" class="link">Download Kit</a></li>
+                <li><a href="" class="link">Contact Us</a></li>
+                <li><a href="#top" class="link">Back to the top</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-bottom">
+              <ul class="footer-links">
+                <li class="caption-2">© Redo</li>
+                <li class="caption-2"><a href="">Legal</a></li>
+                <li class="caption-2"><a href="">Privacy</a></li>
+                <li class="caption-2">All Rights Reserved</li>
+              </ul>
+            </div>
+          </footer>
+        </main>
       </div>
-    </footer>
-    </main>
-
-    
-
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
