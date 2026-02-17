@@ -256,3 +256,38 @@ main {
         display: flex;
     gap: 5px;
     }
+
+
+    /* color */
+
+    #color{
+        padding: 32px 32px 120px 32px;
+    }
+    .color-containers{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .color{
+        width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    }
+
+    .color-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px 16px;
+    }
+
+    .gradient-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 0;
+    }
+
+    .gradient{
+        display: grid;
+        gap: 10px;
+    }
