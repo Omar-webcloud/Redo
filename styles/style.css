@@ -322,5 +322,25 @@ main {
 
     .size{
         padding-left: 32px;
-        padding-right: 32px;
+        padding-right: 32px;   
+        padding-top: 32px;
+        
+    }
+    .size-content{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+    }
+    .clear{
+        display: grid;
+        gap: 10px;
+    }
+    .clear-title{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .clear-content{
+        display: flex;
+        justify-content: space-between;
+        color: #575757;
     }
