@@ -291,3 +291,36 @@ main {
         display: grid;
         gap: 10px;
     }
+
+    /* typography */
+
+    #typography{
+        padding: 32px 32px 120px 32px;
+    }
+
+    .typo-content{
+        display: flex;
+    justify-content: space-between;
+    }
+
+    .rethink{
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .primary{
+        font-size:15px;
+        font-weight: 500;
+    }
+    .primar-think{
+         padding-bottom: 60px;
+    }
+    .type-container{
+        padding-left: 32px;
+        padding-right: 32px;
+       
+    }
+
+    .size{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
