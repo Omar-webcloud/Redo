@@ -424,7 +424,9 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-
+.color-card img{
+    width: 100%;
+  }
 .color-grid-gradient {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -639,6 +641,7 @@ body {
     padding-bottom: 80px;
     gap: 0;
   }
+  
   .typo-sizing-wrap {
     flex-direction: column-reverse;
   }
@@ -830,6 +833,9 @@ body {
   }
   .typo-variation {
     padding: 30px 0px 30px 0;}
+    .typo-content {
+    padding: 0px;
+}
   .art-grid img {
     max-height: 210px;
     object-fit: cover;
@@ -838,4 +844,11 @@ body {
     max-width: 270px;
     height: auto;
   }
+}
+
+@media (max-width: 355px) {
+  .footer-links {
+   
+    gap: 5px;
+}
 }
