@@ -631,6 +631,7 @@ body {
     grid-column: auto;
     height: auto;
     overflow-y: auto;
+    
   }
   .guidelines,
   .content-table {
@@ -659,9 +660,16 @@ body {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .main-content {
+    margin-top: 50px;
+  }
   .sidebar {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "brand menubar";
+    position: fixed;
+    height: auto;
+    width: 100%;
+    border-bottom: none;
   }
   .menu-toggle {
     display: flex;
@@ -672,29 +680,43 @@ body {
   .side-nav,
   .sidebar-footer {
     display: none;
+    width: 100%;
+    background: white;
   }
   .sidebar.is-open .side-nav,
   .sidebar.is-open .sidebar-footer {
     display: flex;
     align-items: flex-start;
     width: 100%;
+    animation: slideDown 0.3s ease-out;
   }
   .sidebar.is-open {
     grid-template-areas:
       "brand menubar"
       "nav nav"
       "actions actions";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
     align-content: start;
     background: white;
     z-index: 100;
-    position: relative;
-    border-bottom: var(--border);
+  }
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   .sidebar.is-open .side-nav {
     border-top: var(--border);
     border-bottom: var(--border);
     padding: 0;
-    margin-top: 10px;
+    margin-top: 0;
+    flex-direction: column;
   }
   .sidebar.is-open .nav-list {
     flex-direction: column;
@@ -705,6 +727,7 @@ body {
     padding: 20px 0;
     gap: 10px;
     border-bottom: var(--border);
+    
   }
   .guidelines,
   .content-table,
@@ -808,6 +831,9 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+  .footer-bottom, .footer-top{
+    padding-left: 16px;
   }
   .footer-nav {
     flex-direction: column;
