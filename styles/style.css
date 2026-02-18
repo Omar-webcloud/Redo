@@ -825,7 +825,7 @@ body {
     object-fit: cover;
   }
   .footer-top img {
-    max-width: 120px;
+    max-width: 270px;
     height: auto;
   }
 }
